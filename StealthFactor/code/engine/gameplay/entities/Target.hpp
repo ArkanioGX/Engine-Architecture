@@ -4,26 +4,17 @@
 #include <engine/graphics/ShapeList.hpp>
 #include <engine/gameplay/Entity.hpp>
 
-namespace engine
+class Target : public Entity
 {
-	namespace gameplay
-	{
-		namespace entities
-		{
-			class Target : public Entity
-			{
-			public:
-				Target();
-				~Target();
+public:
+	Target();
+	~Target();
 
-				virtual void update() override;
+	virtual void update() override;
 
-				virtual void draw() override;
+	virtual void draw() override;
 
-			private:
-				graphics::ShapeList shapeList;
-				dGeomID collisionGeomId;
-			};
-		}
-	}
-}
+private:
+	ShapeList shapeList;
+	dGeomID collisionGeomId;
+};

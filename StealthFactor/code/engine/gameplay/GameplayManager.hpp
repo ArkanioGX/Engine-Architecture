@@ -4,50 +4,37 @@
 #include <string>
 #include <SFML/System/Vector2.hpp>
 
-namespace engine
+class Entity;
+
+class Player;
+
+class GameManager
 {
-	namespace gameplay
-	{
-		class Entity;
+public:
+	void update();
+	void draw();
 
-		namespace entities
-		{
-			class Player;
-		}
+	void gameOver();
 
-		class Manager
-		{
-		public:
-			void update();
-			void draw();
+	sf::Vector2f getViewCenter() const;
 
-			void gameOver();
+	void loadMap(const std::string &mapName);
+	void loadNextMap();
 
-			sf::Vector2f getViewCenter() const;
+	const Player &getPlayer() const;
 
-			void loadMap(const std::string &mapName);
-			void loadNextMap();
+	static const float CELL_SIZE;
 
-			const entities::Player &getPlayer() const;
+private:
+	std::set<Entity *> entities;
+	Player *playerEntity{};
 
-			static const float CELL_SIZE;
+	// Map
+	std::string currentMapName;
+	std::string nextMapName;
+	int rows{ 0 };
+	int columns{ 0 };
 
-			static Manager &getInstance();
-
-		private:
-			std::set<Entity *> entities;
-			entities::Player *playerEntity{};
-
-			// Map
-			std::string currentMapName;
-			std::string nextMapName;
-			int rows{ 0 };
-			int columns{ 0 };
-
-			bool preventMapCompletion{ false };
-			bool nextMapRequested{ false };
-
-			static Manager *instance;
-		};
-	}
-}
+	bool preventMapCompletion{ false };
+	bool nextMapRequested{ false };
+};

@@ -4,41 +4,31 @@
 #include <vector>
 #include <ode/collision.h>
 
-namespace engine
+class PhysicsManager
 {
-	namespace physics
+public:
+	struct Collision
 	{
-		class Manager
-		{
-		public:
-			struct Collision
-			{
-				dGeomID o1;
-				dGeomID o2;
+		dGeomID o1;
+		dGeomID o2;
 
-				Collision(dGeomID o1, dGeomID o2);
-			};
+		Collision(dGeomID o1, dGeomID o2);
+	};
 
-			using Collisions = std::vector<Collision>;
+	using Collisions = std::vector<Collision>;
 
-			Manager();
-			~Manager();
+	PhysicsManager();
+	~PhysicsManager();
 
-			void update();
+	void update();
 
-			dSpaceID getSpaceId() const;
+	dSpaceID getSpaceId() const;
 
-			std::set<dGeomID> getCollisionsWith(dGeomID object) const;
+	std::set<dGeomID> getCollisionsWith(dGeomID object) const;
 
-			static Manager &getInstance();
+private:
+	dSpaceID spaceId;
+	Collisions frameCollisions;
 
-		private:
-			dSpaceID spaceId;
-			Collisions frameCollisions;
-
-			static void nearCallback(void *data, dGeomID o1, dGeomID o2);
-
-			static Manager *instance;
-		};
-	}
-}
+	static void nearCallback(void *data, dGeomID o1, dGeomID o2);
+};

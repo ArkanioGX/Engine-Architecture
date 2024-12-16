@@ -2,24 +2,15 @@
 
 #include <engine/gameplay/entities/Character.hpp>
 
-namespace engine
+class Player : public Character
 {
-	namespace gameplay
-	{
-		namespace entities
-		{
-			class Player : public Character
-			{
-			public:
-				Player();
+public:
+	Player();
 
-				virtual void update() override;
+	virtual void update() override;
 
-				bool hasJustMoved() const;
+	bool hasJustMoved() const;
 
-			private:
-				bool justMoved{ false };
-			};
-		}
-	}
-}
+private:
+	bool justMoved{ false };
+};

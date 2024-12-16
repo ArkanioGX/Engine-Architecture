@@ -2,59 +2,45 @@
 
 #include <iterator>
 #include <engine/graphics/GraphicsManager.hpp>
+#include <engine/Engine.hpp>
 
-namespace engine
+bool InputManager::isKeyPressed(sf::Keyboard::Key key) const
 {
-	namespace input
-	{
-		Manager *Manager::instance = nullptr;
+	if (!Engine::GetEngine()->GetGraphic()->hasFocus())
+		return false;
 
-		bool Manager::isKeyPressed(sf::Keyboard::Key key) const
-		{
-			if (!graphics::Manager::getInstance().hasFocus())
-				return false;
-
-			return sf::Keyboard::isKeyPressed(key);
-		}
-
-		bool Manager::isKeyJustPressed(sf::Keyboard::Key key) const
-		{
-			if (!graphics::Manager::getInstance().hasFocus())
-				return false;
-
-			return justPressedKeys.find(key) != std::end(justPressedKeys);
-		}
-
-		bool Manager::isKeyJustReleased(sf::Keyboard::Key key) const
-		{
-			if (!graphics::Manager::getInstance().hasFocus())
-				return false;
-
-			return justReleasedKeys.find(key) != std::end(justReleasedKeys);
-		}
-
-		void Manager::clear()
-		{
-			justPressedKeys.clear();
-			justReleasedKeys.clear();
-		}
-
-		void Manager::onKeyPressed(const sf::Event::KeyEvent &event)
-		{
-			justPressedKeys.insert(event.code);
-		}
-
-		void Manager::onKeyReleased(const sf::Event::KeyEvent &event)
-		{
-			justReleasedKeys.insert(event.code);
-		}
-
-		Manager &Manager::getInstance()
-		{
-			if (!instance)
-				instance = new Manager();
-
-			return *instance;
-		}
-	}
+	return sf::Keyboard::isKeyPressed(key);
 }
+
+bool InputManager::isKeyJustPressed(sf::Keyboard::Key key) const
+{
+	if (!Engine::GetEngine()->GetGraphic()->hasFocus())
+		return false;
+
+	return justPressedKeys.find(key) != std::end(justPressedKeys);
+}
+
+bool InputManager::isKeyJustReleased(sf::Keyboard::Key key) const
+{
+	if (!Engine::GetEngine()->GetGraphic()->hasFocus())
+		return false;
+
+	return justReleasedKeys.find(key) != std::end(justReleasedKeys);
+}
+
+void InputManager::clear()
+{
+	justPressedKeys.clear();
+	justReleasedKeys.clear();
+}
+
+void InputManager::onKeyPressed(const sf::Event::KeyEvent &event)
+{
+	justPressedKeys.insert(event.code);
+}
+
+void InputManager::onKeyReleased(const sf::Event::KeyEvent &event)
+{
+	justReleasedKeys.insert(event.code);
+}
+

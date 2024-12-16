@@ -1,29 +1,21 @@
 #include "Character.hpp"
 
+#include <engine/Engine.hpp>
 #include <engine/graphics/GraphicsManager.hpp>
 #include <engine/physics/PhysicsManager.hpp>
 
-namespace engine
+Character::Character()
 {
-	namespace gameplay
-	{
-		namespace entities
-		{
-			Character::Character()
-			{
-				collisionGeomId = dCreateBox(physics::Manager::getInstance().getSpaceId(), 0.f, 0.f, 0.f);
-				dGeomSetData(collisionGeomId, this);
-			}
+	collisionGeomId = dCreateBox(Engine::GetEngine()->GetPhysics()->getSpaceId(), 0.f, 0.f, 0.f);
+	dGeomSetData(collisionGeomId, this);
+}
 
-			Character::~Character()
-			{
-				dGeomDestroy(collisionGeomId);
-			}
+Character::~Character()
+{
+	dGeomDestroy(collisionGeomId);
+}
 
-			void Character::draw()
-			{
-				graphics::Manager::getInstance().draw(shapeList, getTransform());
-			}
-		}
-	}
+void Character::draw()
+{
+	Engine::GetEngine()->GetGraphic()->draw(shapeList, getTransform());
 }

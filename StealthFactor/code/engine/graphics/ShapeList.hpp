@@ -2,27 +2,20 @@
 
 #include <string>
 #include <vector>
-
-namespace sf
-{
+namespace sf {
 	class Shape;
 }
 
-namespace engine
+
+class ShapeList
 {
-	namespace graphics
-	{
-		class ShapeList
-		{
-		public:
-			using Shapes = std::vector<sf::Shape *>;
+public:
+	using Shapes = std::vector<sf::Shape*>;
 
-			bool load(const std::string &name);
+	bool load(const std::string &name);
 
-			const Shapes &getShapes() const;
+	const Shapes &getShapes() const;
 
-		private:
-			Shapes shapes;
-		};
-	}
-}
+private:
+	Shapes shapes;
+};

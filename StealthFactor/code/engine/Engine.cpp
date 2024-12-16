@@ -12,7 +12,11 @@
 
 Engine *Engine::instance = nullptr;
 
-Engine::Engine()
+Engine::Engine() :
+	physics(new PhysicsManager()),
+	graphic(new GraphicsManager()),
+	game(new GameManager()),
+	input(new InputManager())
 {
 	if (instance != nullptr) {
 		delete this;
@@ -38,28 +42,31 @@ void Engine::loadConfiguration()
 		std::cerr << "Error description: " << result.description() << std::endl;
 		std::cerr << "Error offset: " << result.offset << std::endl;
 	}
+
+
+
 }
 
 void Engine::run()
 {
 	running = true;
 
-	gameplay::Manager::getInstance().loadMap(startMap);
+	game->loadMap(startMap);
 
 	sf::Clock clock;
 	while (running)
 	{
 		deltaTime = clock.restart().asSeconds();
 
-		physics::Manager::getInstance().update();
-		gameplay::Manager::getInstance().update();
-		graphics::Manager::getInstance().update();
+		physics->update();
+		game->update();
+		graphic->update();
 
-		graphics::Manager::getInstance().clear();
+		graphic->clear();
 
-		gameplay::Manager::getInstance().draw();
+		game->draw();
 
-		graphics::Manager::getInstance().display();
+		graphic->display();
 	}
 }
 
@@ -73,7 +80,7 @@ void Engine::exit()
 	running = false;
 }
 
-Engine* Engine::GetGame()
+Engine* Engine::GetEngine()
 {
 	return instance;
 }

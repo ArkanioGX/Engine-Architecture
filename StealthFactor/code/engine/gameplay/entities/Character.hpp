@@ -4,26 +4,17 @@
 #include <engine/graphics/ShapeList.hpp>
 #include <engine/gameplay/Entity.hpp>
 
-namespace engine
+class Character : public Entity
 {
-	namespace gameplay
-	{
-		namespace entities
-		{
-			class Character : public Entity
-			{
-			public:
-				Character();
-				virtual ~Character();
+public:
+	Character();
+	virtual ~Character();
 
-				virtual void draw() override;
+	virtual void draw() override;
 
-			protected:
-				graphics::ShapeList shapeList;
-				dGeomID collisionGeomId;
+protected:
+	ShapeList shapeList;
+	dGeomID collisionGeomId;
 
-				bool isWalking{ false };
-			};
-		}
-	}
-}
+	bool isWalking{ false };
+};

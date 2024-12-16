@@ -2,32 +2,26 @@
 
 #include <SFML/Graphics/Transform.hpp>
 
-namespace engine
+class Entity
 {
-	namespace gameplay
-	{
-		class Entity
-		{
-		public:
-			virtual ~Entity() = default;
+public:
+	virtual ~Entity() = default;
 
-			virtual void update() = 0;
-			virtual void draw() = 0;
+	virtual void update() = 0;
+	virtual void draw() = 0;
 
-			const sf::Vector2f &getPosition() const;
-			void setPosition(const sf::Vector2f &newPosition);
+	const sf::Vector2f &getPosition() const;
+	void setPosition(const sf::Vector2f &newPosition);
 
-			float getRotation() const;
-			void setRotation(float newRotation);
+	float getRotation() const;
+	void setRotation(float newRotation);
 
-			const sf::Transform &getTransform() const;
+	const sf::Transform &getTransform() const;
 
-		private:
-			sf::Vector2f _position{};
-			float _rotation{ 0.f };
-			sf::Transform _transform;
+private:
+	sf::Vector2f _position{};
+	float _rotation{ 0.f };
+	sf::Transform _transform;
 
-			void updateTransform();
-		};
-	}
-}
+	void updateTransform();
+};

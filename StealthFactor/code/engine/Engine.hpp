@@ -2,6 +2,7 @@
 
 #include <string>
 
+
 class Engine
 {
 public:
@@ -14,7 +15,12 @@ public:
 
 	void exit();
 
-	static Engine *GetGame();
+	static Engine *GetEngine();
+
+	class PhysicsManager* GetPhysics() { return physics; };
+	class GraphicsManager* GetGraphic() { return graphic; };
+	class InputManager* GetInput() { return input; };
+	class GameManager* GetGame() {return game;};
 
 private:
 	bool running;
@@ -22,6 +28,11 @@ private:
 
 	// Configuration
 	std::string startMap;
+
+	class PhysicsManager* physics;
+	class GraphicsManager* graphic;
+	class InputManager* input;
+	class GameManager* game;
 
 	static Engine *instance;
 };

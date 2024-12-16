@@ -8,87 +8,71 @@
 #include <engine/gameplay/GameplayManager.hpp>
 #include <engine/Engine.hpp>
 
-namespace engine
+GraphicsManager::GraphicsManager()
 {
-	namespace graphics
+	window.create(sf::VideoMode{ (unsigned int)WINDOW_WIDTH, (unsigned int)WINDOW_HEIGHT }, "Stealth Factor");
+
+	window.setVerticalSyncEnabled(true);
+
+	sf::View view(sf::Vector2f{ 0.f, 0.f }, sf::Vector2f{ (float)WINDOW_WIDTH, (float)WINDOW_HEIGHT });
+	window.setView(view);
+}
+
+GraphicsManager::~GraphicsManager()
+{
+	window.close();
+}
+
+void GraphicsManager::update()
+{
+	Engine::GetEngine()->GetInput()->clear();
+
+	sf::Event event;
+	while (window.pollEvent(event))
 	{
-		Manager *Manager::instance = nullptr;
-
-		Manager::Manager()
+		switch (event.type)
 		{
-			window.create(sf::VideoMode{ (unsigned int)WINDOW_WIDTH, (unsigned int)WINDOW_HEIGHT }, "Stealth Factor");
+		case sf::Event::Closed:
+			Engine::GetEngine()->exit();
+			break;
 
-			window.setVerticalSyncEnabled(true);
+		case sf::Event::KeyPressed:
+			Engine::GetEngine()->GetInput()->onKeyPressed(event.key);
+			break;
 
-			sf::View view(sf::Vector2f{ 0.f, 0.f }, sf::Vector2f{ (float)WINDOW_WIDTH, (float)WINDOW_HEIGHT });
-			window.setView(view);
-		}
+		case sf::Event::KeyReleased:
+			Engine::GetEngine()->GetInput()->onKeyReleased(event.key);
+			break;
 
-		Manager::~Manager()
-		{
-			window.close();
-		}
-
-		void Manager::update()
-		{
-			input::Manager::getInstance().clear();
-
-			sf::Event event;
-			while (window.pollEvent(event))
-			{
-				switch (event.type)
-				{
-				case sf::Event::Closed:
-					Engine::getInstance().exit();
-					break;
-
-				case sf::Event::KeyPressed:
-					input::Manager::getInstance().onKeyPressed(event.key);
-					break;
-
-				case sf::Event::KeyReleased:
-					input::Manager::getInstance().onKeyReleased(event.key);
-					break;
-
-				default:
-					break;
-				}
-			}
-		}
-
-		void Manager::clear()
-		{
-			window.clear(sf::Color::Black);
-
-			sf::View view{ gameplay::Manager::getInstance().getViewCenter(), sf::Vector2f{(float)WINDOW_WIDTH, (float)WINDOW_HEIGHT} };
-			window.setView(view);
-		}
-
-		void Manager::draw(const ShapeList &shapeList, const sf::Transform &transform)
-		{
-			sf::RenderStates renderStates{ transform };
-			for (auto shape : shapeList.getShapes())
-			{
-				window.draw(*shape, renderStates);
-			}
-		}
-
-		void Manager::display()
-		{
-			window.display();
-		}
-
-		bool Manager::hasFocus() const
-		{
-			return window.hasFocus();
-		}
-
-		Manager &Manager::getInstance()
-		{
-			if (!instance)
-				instance = new Manager();
-
-			return *instance;
+		default:
+			break;
 		}
 	}
+}
+
+void GraphicsManager::clear()
+{
+	window.clear(sf::Color::Black);
+
+	sf::View view{ Engine::GetEngine()->GetGame()->getViewCenter(), sf::Vector2f{(float)WINDOW_WIDTH, (float)WINDOW_HEIGHT} };
+	window.setView(view);
+}
+
+void GraphicsManager::draw(const ShapeList &shapeList, const sf::Transform &transform)
+{
+	sf::RenderStates renderStates{ transform };
+	for (auto shape : shapeList.getShapes())
+	{
+		window.draw(*shape, renderStates);
+	}
+}
+
+void GraphicsManager::display()
+{
+	window.display();
+}
+
+bool GraphicsManager::hasFocus() const
+{
+	return window.hasFocus();
 }
