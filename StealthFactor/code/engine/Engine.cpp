@@ -51,7 +51,7 @@ void Engine::run()
 {
 	running = true;
 
-	game->loadMap(startMap);
+	game->setNewMapToLoad(startMap);
 
 	sf::Clock clock;
 	while (running)

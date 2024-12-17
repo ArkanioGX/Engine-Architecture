@@ -18,7 +18,7 @@ public:
 
 	sf::Vector2f getViewCenter() const;
 
-	void loadMap(const std::string &mapName);
+	void setNewMapToLoad(const std::string& mapName);
 	void loadNextMap();
 
 	const Player &getPlayer() const;
@@ -29,12 +29,18 @@ private:
 	std::set<Entity *> entities;
 	Player *playerEntity{};
 
+	void loadMap(const std::string& mapName);
+
+	
+
 	// Map
+	std::string newMapToLoad = "";
+
 	std::string currentMapName;
 	std::string nextMapName;
 	int rows{ 0 };
 	int columns{ 0 };
 
 	bool preventMapCompletion{ false };
-	bool nextMapRequested{ false };
+	bool newMapRequested{ false };
 };

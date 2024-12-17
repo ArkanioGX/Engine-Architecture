@@ -1,2 +1,5 @@
 /.vagrant
 /*.log
+/bin32/
+/bin64/
+/build/

@@ -21,10 +21,16 @@ void GameManager::update()
 	}
 
 	preventMapCompletion = false;
-	if (nextMapRequested && !nextMapName.empty())
+	if (newMapRequested && !newMapToLoad.empty())
 	{
-		nextMapRequested = false;
-		loadMap(nextMapName);
+		newMapRequested = false;
+		loadMap(newMapToLoad);
+		newMapToLoad = "";
+	}
+	else if (newMapRequested && newMapToLoad.empty()) {
+		newMapRequested = false;
+		newMapToLoad = "";
+		std::cout << "ERROR : No map to load set" << std::endl;
 	}
 }
 
@@ -42,7 +48,7 @@ void GameManager::draw()
 void GameManager::gameOver()
 {
 	std::cout << "Game over" << std::endl;
-	loadMap(currentMapName);
+	setNewMapToLoad(currentMapName);
 }
 
 sf::Vector2f GameManager::getViewCenter() const
@@ -138,11 +144,18 @@ void GameManager::loadMap(const std::string& mapName)
 	}
 }
 
+void GameManager::setNewMapToLoad(const std::string& mapName)
+{
+	newMapRequested = true;
+	newMapToLoad = mapName;
+}
+
 void GameManager::loadNextMap()
 {
 	if (!preventMapCompletion)
 	{
-		nextMapRequested = true;
+		newMapRequested = true;
+		newMapToLoad = nextMapName;
 	}
 }
 
