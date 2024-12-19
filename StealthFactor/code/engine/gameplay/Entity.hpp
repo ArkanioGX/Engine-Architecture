@@ -1,13 +1,16 @@
 #pragma once
 
+#include <vector>
 #include <SFML/Graphics/Transform.hpp>
+#include <memory>
+#include <iostream>
 
 class Entity
 {
 public:
 	virtual ~Entity() = default;
 
-	virtual void update() = 0;
+	virtual void update();
 	virtual void draw() = 0;
 
 	const sf::Vector2f &getPosition() const;
@@ -18,10 +21,12 @@ public:
 
 	const sf::Transform &getTransform() const;
 
-private:
+protected:
 	sf::Vector2f _position{};
 	float _rotation{ 0.f };
 	sf::Transform _transform;
+
+	std::vector<std::shared_ptr<class Component>> components;
 
 	void updateTransform();
 };

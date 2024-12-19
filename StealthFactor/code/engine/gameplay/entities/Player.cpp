@@ -1,6 +1,7 @@
 #include "engine/gameplay/entities/Player.hpp"
 
 #include <ode/collision.h>
+#include <engine/gameplay/components/TestComponent.hpp>
 #include <SFML/Graphics/Color.hpp>
 #include <SFML/Graphics/Shape.hpp>
 #include <SFML/Graphics/CircleShape.hpp>
@@ -16,6 +17,8 @@ Player::Player()
 
 	collisionGeomId = dCreateBox(Engine::GetEngine()->GetPhysics()->getSpaceId(), GameManager::CELL_SIZE * 0.9f, GameManager::CELL_SIZE * 0.9f, 1.f);
 	dGeomSetData(collisionGeomId, this);
+
+	components.push_back(std::make_shared<TestComponent>(this));
 }
 
 void Player::update()

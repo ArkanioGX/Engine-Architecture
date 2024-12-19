@@ -19,6 +19,9 @@
     <Filter Include="util">
       <UniqueIdentifier>{43339F7C-2F6A-A00D-D856-8610C46C1C0F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="gameplay\components">
+      <UniqueIdentifier>{e24182fe-9b83-4fea-beab-9d2cc59796e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\code\engine\Engine.hpp" />
@@ -54,6 +57,12 @@
     </ClInclude>
     <ClInclude Include="..\..\code\engine\util\StringId.hpp">
       <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\components\Component.hpp">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\components\TestComponent.hpp">
+      <Filter>gameplay\components</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +100,12 @@
     </ClCompile>
     <ClCompile Include="..\..\code\engine\util\StringId.cpp">
       <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\components\Component.cpp">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\components\TestComponent.cpp">
+      <Filter>gameplay\components</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

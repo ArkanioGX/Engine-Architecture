@@ -385,6 +385,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\code\engine\Engine.hpp" />
+    <ClInclude Include="..\..\code\engine\gameplay\components\Component.hpp" />
+    <ClInclude Include="..\..\code\engine\gameplay\components\TestComponent.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\Entity.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\GameplayManager.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\entities\Character.hpp" />
@@ -399,6 +401,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\code\engine\Engine.cpp" />
+    <ClCompile Include="..\..\code\engine\gameplay\components\Component.cpp" />
+    <ClCompile Include="..\..\code\engine\gameplay\components\TestComponent.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\Entity.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\GameplayManager.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\entities\Character.cpp" />
