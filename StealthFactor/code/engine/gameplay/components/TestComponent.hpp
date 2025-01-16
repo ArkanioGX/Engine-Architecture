@@ -7,7 +7,7 @@ public:
 	TestComponent(Entity* ownerT);
 	~TestComponent();
 
-	void update() override;
+	void update(float dt) override;
 	void begin() override;
 };
 

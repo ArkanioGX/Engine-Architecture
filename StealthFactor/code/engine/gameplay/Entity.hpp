@@ -10,7 +10,7 @@ class Entity
 public:
 	virtual ~Entity() = default;
 
-	virtual void update();
+	virtual void update(float dt);
 	virtual void draw() = 0;
 
 	const sf::Vector2f &getPosition() const;
@@ -20,6 +20,9 @@ public:
 	void setRotation(float newRotation);
 
 	const sf::Transform &getTransform() const;
+
+	void addComponent(class Component* cp);
+	void removeComponent(class Component* cp);
 
 protected:
 	sf::Vector2f _position{};

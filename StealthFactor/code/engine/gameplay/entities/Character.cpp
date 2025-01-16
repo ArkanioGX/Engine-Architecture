@@ -19,3 +19,8 @@ void Character::draw()
 {
 	Engine::GetEngine()->GetGraphic()->draw(shapeList, getTransform());
 }
+
+ShapeList* Character::getShapeList()
+{
+	return &shapeList;
+}

@@ -7,6 +7,7 @@ class Entity;
 
 class Component {
 
+protected:
 	Entity* owner;
 
 public:
@@ -14,8 +15,8 @@ public:
 	Component() = delete;
 	Component(Entity* ownerT);
 
-	~Component();
+	virtual ~Component();
 
-	virtual void begin() = 0;
-	virtual void update() = 0;
+	virtual void begin();
+	virtual void update(float dt);
 };

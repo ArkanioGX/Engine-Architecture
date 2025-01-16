@@ -3,37 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -42,16 +48,25 @@
       "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,184 +76,192 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestComponent.cpp",
-              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.cpp",
-              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\TestComponent.cpp",
-              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.cpp",
-              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\TestComponent.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "DocumentIndex": 2,
+              "Title": "EnemyComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\EnemyComponent.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\EnemyComponent.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADgAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-19T11:58:21.081Z",
+              "WhenOpened": "2025-01-16T11:35:46.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Character.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T11:29:04.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Entity.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\Entity.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\Entity.cpp",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAEwCYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T11:10:29.802Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "TestComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\TestComponent.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\TestComponent.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T11:58:22.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Enemy.hpp",
               "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.hpp",
               "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Enemy.hpp",
               "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.hpp",
               "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Enemy.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-19T10:22:03.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Player.hpp",
-              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp",
-              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Player.hpp",
-              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp",
-              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Player.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-19T10:21:49.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp",
-              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Player.cpp",
-              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp",
-              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Player.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-19T10:19:09.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Component.cpp",
               "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.cpp",
               "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\Component.cpp",
               "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.cpp",
               "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\Component.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-17T12:59:17.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T12:59:17.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Component.hpp",
               "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.hpp",
               "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\Component.hpp",
               "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.hpp",
               "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\Component.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-17T12:53:54.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T12:53:54.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "InputManager.cpp",
-              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp",
-              "RelativeDocumentMoniker": "..\\code\\engine\\input\\InputManager.cpp",
-              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp",
-              "RelativeToolTip": "..\\code\\engine\\input\\InputManager.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-17T09:05:35.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
               "Title": "Enemy.cpp",
               "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp",
               "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Enemy.cpp",
               "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp",
               "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Enemy.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-17T08:31:25.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Entity.cpp",
-              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp",
-              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\Entity.cpp",
-              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp",
-              "RelativeToolTip": "..\\code\\engine\\gameplay\\Entity.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-17T08:23:51.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TestComponent.hpp",
-              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.hpp",
-              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\TestComponent.hpp",
-              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.hpp",
-              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\TestComponent.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-19T11:58:22.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameplayManager.hpp",
-              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.hpp",
-              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\GameplayManager.hpp",
-              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.hpp",
-              "RelativeToolTip": "..\\code\\engine\\gameplay\\GameplayManager.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-17T08:25:58.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Entity.hpp",
-              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp",
-              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\Entity.hpp",
-              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp",
-              "RelativeToolTip": "..\\code\\engine\\gameplay\\Entity.hpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-17T08:23:50.562Z",
+              "WhenOpened": "2024-12-17T08:31:25.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Entity.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\Entity.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\Entity.hpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-17T08:23:50.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAEwBEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T09:53:26.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TestComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\TestComponent.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TestComponent.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\TestComponent.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-19T11:58:21.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameplayManager.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAEwCMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-17T08:23:27.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "GraphicsManager.cpp",
               "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp",
               "RelativeDocumentMoniker": "..\\code\\engine\\graphics\\GraphicsManager.cpp",
               "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp",
               "RelativeToolTip": "..\\code\\engine\\graphics\\GraphicsManager.cpp",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAADAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-17T09:15:45.402Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "GameplayManager.cpp",
-              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp",
-              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\GameplayManager.cpp",
-              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp",
-              "RelativeToolTip": "..\\code\\engine\\gameplay\\GameplayManager.cpp",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAEwA8AAAAQAAAA",
+              "Title": "Engine.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\Engine.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp",
+              "RelativeToolTip": "..\\code\\engine\\Engine.hpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-17T08:08:13.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\Engine.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp",
+              "RelativeToolTip": "..\\code\\engine\\Engine.cpp",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAEwA4AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-17T08:23:27.474Z"
+              "WhenOpened": "2024-12-17T08:07:53.49Z"
             },
             {
               "$type": "Document",
@@ -254,27 +277,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Engine.hpp",
-              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp",
-              "RelativeDocumentMoniker": "..\\code\\engine\\Engine.hpp",
-              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp",
-              "RelativeToolTip": "..\\code\\engine\\Engine.hpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "DocumentIndex": 16,
+              "Title": "PhysicsManager.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\physics\\PhysicsManager.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.hpp",
+              "RelativeToolTip": "..\\code\\engine\\physics\\PhysicsManager.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-17T08:08:13.004Z"
+              "WhenOpened": "2025-01-16T09:55:27.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Engine.cpp",
-              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp",
-              "RelativeDocumentMoniker": "..\\code\\engine\\Engine.cpp",
-              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp",
-              "RelativeToolTip": "..\\code\\engine\\Engine.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAALAAAA",
+              "DocumentIndex": 17,
+              "Title": "PhysicsManager.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\physics\\PhysicsManager.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.cpp",
+              "RelativeToolTip": "..\\code\\engine\\physics\\PhysicsManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-17T08:07:53.49Z"
+              "WhenOpened": "2025-01-16T09:55:24.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GameplayManager.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\GameplayManager.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\GameplayManager.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-17T08:25:58.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAEwBcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-19T10:19:09.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Player.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T10:21:49.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InputManager.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\input\\InputManager.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp",
+              "RelativeToolTip": "..\\code\\engine\\input\\InputManager.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-17T09:05:35.802Z"
             }
           ]
         }

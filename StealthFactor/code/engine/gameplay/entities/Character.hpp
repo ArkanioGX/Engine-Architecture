@@ -12,9 +12,13 @@ public:
 
 	virtual void draw() override;
 
+	ShapeList* getShapeList();
+
 protected:
 	ShapeList shapeList;
 	dGeomID collisionGeomId;
+
+	
 
 	bool isWalking{ false };
 };

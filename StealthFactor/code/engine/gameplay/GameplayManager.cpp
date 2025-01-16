@@ -15,9 +15,10 @@ const float GameManager::CELL_SIZE = 50.f;
 
 void GameManager::update()
 {
+	float deltaTime = Engine::GetEngine()->getDeltaTime();
 	for (auto entity : entities)
 	{
-		entity->update();
+		entity->update(deltaTime);
 	}
 
 	preventMapCompletion = false;

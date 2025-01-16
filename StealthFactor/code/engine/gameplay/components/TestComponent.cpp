@@ -9,7 +9,7 @@ TestComponent::~TestComponent()
 {
 }
 
-void TestComponent::update()
+void TestComponent::update(float dt)
 {
 }
 
