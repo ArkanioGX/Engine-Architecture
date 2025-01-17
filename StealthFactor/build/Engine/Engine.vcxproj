@@ -387,8 +387,10 @@
     <ClInclude Include="..\..\code\engine\Engine.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\components\Component.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\components\EnemyComponent.hpp" />
+    <ClInclude Include="..\..\code\engine\gameplay\components\GraphicsComponent.hpp" />
+    <ClInclude Include="..\..\code\engine\gameplay\components\PhysicsComponent.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\components\PlayerComponent.hpp" />
-    <ClInclude Include="..\..\code\engine\gameplay\components\TestComponent.hpp" />
+    <ClInclude Include="..\..\code\engine\gameplay\components\TargetComponent.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\Entity.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\GameplayManager.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\entities\Character.hpp" />
@@ -405,8 +407,10 @@
     <ClCompile Include="..\..\code\engine\Engine.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\components\Component.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\components\EnemyComponent.cpp" />
+    <ClCompile Include="..\..\code\engine\gameplay\components\GraphicsComponent.cpp" />
+    <ClCompile Include="..\..\code\engine\gameplay\components\PhysicsComponent.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\components\PlayerComponent.cpp" />
-    <ClCompile Include="..\..\code\engine\gameplay\components\TestComponent.cpp" />
+    <ClCompile Include="..\..\code\engine\gameplay\components\TargetComponent.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\Entity.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\GameplayManager.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\entities\Character.cpp" />

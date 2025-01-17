@@ -21,13 +21,13 @@ public:
 	void setNewMapToLoad(const std::string& mapName);
 	void loadNextMap();
 
-	const Player &getPlayer() const;
+	Entity* getPlayer() const;
 
 	static const float CELL_SIZE;
 
 private:
 	std::set<Entity *> entities;
-	Player *playerEntity{};
+	Entity *playerEntity{};
 
 	void loadMap(const std::string& mapName);
 

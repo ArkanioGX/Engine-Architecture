@@ -10,11 +10,7 @@ public:
 	Target();
 	~Target();
 
-	virtual void update() override;
-
-	virtual void draw() override;
-
 private:
-	ShapeList shapeList;
-	dGeomID collisionGeomId;
+
+	class TargetComponent* targetComponent;
 };

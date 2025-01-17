@@ -4,7 +4,8 @@
 #include <pugixml/pugixml.hpp>
 #include <engine/Engine.hpp>
 #include <engine/gameplay/GameplayManager.hpp>
-#include <engine/gameplay/entities/Player.hpp>
+#include <engine/gameplay/components/PlayerComponent.hpp>
+#include <engine/gameplay/Entity.hpp>
 
 EnemyComponent::EnemyComponent(Entity* owner, const std::string& archetypeName):
 	Component(owner)
@@ -14,10 +15,12 @@ EnemyComponent::EnemyComponent(Entity* owner, const std::string& archetypeName):
 
 void EnemyComponent::update(float dt)
 {
-	auto& player = Engine::GetEngine()->GetGame()->getPlayer();
-	if (player.hasJustMoved())
+	dt++;
+	Entity* player = Engine::GetEngine()->GetGame()->getPlayer();
+	PlayerComponent* plComp = player->getComponent<PlayerComponent*>();
+	if (plComp->hasJustMoved())
 	{
-		auto& playerPosition = player.getPosition();
+		auto& playerPosition = player->getPosition();
 		auto& myPosition = owner->getPosition();
 
 		auto offset = myPosition - playerPosition;
@@ -59,8 +62,7 @@ void EnemyComponent::loadArchetype(const std::string& archetypeName)
 		auto xmlArchetype = doc.first_child();
 
 		std::string shapeListName = xmlArchetype.child_value("shapelist");
-		dynamic_cast<Character>(owner)->ge
-		assert( load(shapeListName));
+		//assert( load(shapeListName));
 
 		visionRadius = std::stof(xmlArchetype.child_value("vision_radius"));
 		assert(visionRadius > 0.f);

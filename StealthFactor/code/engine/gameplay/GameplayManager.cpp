@@ -160,8 +160,7 @@ void GameManager::loadNextMap()
 	}
 }
 
-const Player & GameManager::getPlayer() const
+Entity* GameManager::getPlayer() const
 {
-	assert(playerEntity);
-	return *playerEntity;
+	return playerEntity;
 }

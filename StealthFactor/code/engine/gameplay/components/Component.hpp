@@ -1,22 +1,35 @@
-
+#pragma once
 #include <vector>
 #include <SFML/Graphics/Transform.hpp>
 #include <memory>
 
-class Entity;
+
+
+enum ComponentType
+{
+	Gameplay,
+	Graphics,
+	Physics
+};
 
 class Component {
 
 protected:
-	Entity* owner;
+	class Entity* owner;
+	
+	ComponentType type;
 
 public:
 
-	Component() = delete;
-	Component(Entity* ownerT);
+	ComponentType getType() const { return type; }
 
+	Component(class Entity* ownerP);
+	Component() = delete;
 	virtual ~Component();
+	Component(const Component&) = delete;
+	Component& operator=(const Component&) = delete;
 
 	virtual void begin();
-	virtual void update(float dt);
+	virtual void update(float);
+
 };

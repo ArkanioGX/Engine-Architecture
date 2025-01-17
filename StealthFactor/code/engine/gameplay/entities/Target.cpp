@@ -4,28 +4,31 @@
 #include <engine/gameplay/GameplayManager.hpp>
 #include <engine/graphics/GraphicsManager.hpp>
 #include <engine/physics/PhysicsManager.hpp>
+#include <engine/gameplay/components/TargetComponent.hpp>
 
 
 Target::Target()
 {
-	shapeList.load("target");
+	targetComponent = new TargetComponent(this);
 
-	collisionGeomId = dCreateBox(Engine::GetEngine()->GetPhysics()->getSpaceId(), GameManager::CELL_SIZE * 0.9f, GameManager::CELL_SIZE * 0.9f, 1.f);
-	dGeomSetData(collisionGeomId, this);
+	//shapeList.load("target");
+
+	//collisionGeomId = dCreateBox(Engine::GetEngine()->GetPhysics()->getSpaceId(), GameManager::CELL_SIZE * 0.9f, GameManager::CELL_SIZE * 0.9f, 1.f);
+	//dGeomSetData(collisionGeomId, this);
 }
 
 Target::~Target()
 {
-	dGeomDestroy(collisionGeomId);
+	//dGeomDestroy(collisionGeomId);
 }
 
-void Target::update()
+/*void Target::update()
 {
-	auto &position = getPosition();
-	dGeomSetPosition(collisionGeomId, position.x, position.y, 0);
+	//auto &position = getPosition();
+	//dGeomSetPosition(collisionGeomId, position.x, position.y, 0);
 }
 
 void Target::draw()
 {
-	Engine::GetEngine()->GetGraphic()->draw(shapeList, getTransform());
-}
+	//Engine::GetEngine()->GetGraphic()->draw(shapeList, getTransform());
+}*/
