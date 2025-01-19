@@ -10,15 +10,6 @@ public:
 	Character();
 	virtual ~Character();
 
-	virtual void draw() override;
-
-	ShapeList* getShapeList();
-
 protected:
-	ShapeList shapeList;
-	dGeomID collisionGeomId;
-
-	
-
 	bool isWalking{ false };
 };

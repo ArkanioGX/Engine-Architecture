@@ -39,10 +39,7 @@ void GameManager::draw()
 {
 	for (auto entity : entities)
 	{
-		if (entity != nullptr) {
-			entity->draw();
-		}
-				
+		entity->draw();	
 	}
 }
 

@@ -9,6 +9,7 @@
 #include <engine/physics/PhysicsManager.hpp>
 #include <engine/Engine.hpp>
 #include <engine/gameplay/Entity.hpp>
+#include <engine/gameplay/components/BoxPhysicsComponent.hpp>
 
 PlayerComponent::PlayerComponent(Entity* ownerT):Component(ownerT)
 {
@@ -53,12 +54,10 @@ void PlayerComponent::update(float dt)
 	{
 		owner->setPosition(position);
 		owner->setRotation(rotation);
-
-		//dGeomSetPosition(collisionGeomId, position.x, position.y, 0);
 	}
 
-	//auto collisions = Engine::GetEngine()->GetPhysics()->getCollisionsWith(collisionGeomId);
-	/*for (auto& geomId : collisions)
+	auto collisions = Engine::GetEngine()->GetPhysics()->getCollisionsWith(owner->getComponent<BoxPhysicsComponent*>()->getGeomID());
+	for (auto& geomId : collisions)
 	{
 		auto entity = reinterpret_cast<Entity*>(dGeomGetData(geomId));
 		auto targetEntity = dynamic_cast<Target*>(entity);
@@ -66,7 +65,7 @@ void PlayerComponent::update(float dt)
 		{
 			Engine::GetEngine()->GetGame()->loadNextMap();
 		}
-	}*/
+	}
 }
 
 bool PlayerComponent::hasJustMoved() const

@@ -8,5 +8,7 @@ public:
 	Player();
 
 private:
-	class PlayerComponent* BehaviorComponent;
+	std::shared_ptr<class PlayerComponent> BehaviorComponent;
+	std::shared_ptr<class ShapesGraphicsComponent> drawComponent;
+	std::shared_ptr<class BoxPhysicsComponent> boxComponent;
 };

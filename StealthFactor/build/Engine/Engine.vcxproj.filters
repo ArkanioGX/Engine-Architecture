@@ -76,6 +76,12 @@
     <ClInclude Include="..\..\code\engine\gameplay\components\PhysicsComponent.hpp">
       <Filter>gameplay\components</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\components\ShapesGraphicsComponent.hpp">
+      <Filter>gameplay\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\components\BoxPhysicsComponent.hpp">
+      <Filter>gameplay\components</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\code\engine\Engine.cpp" />
@@ -129,6 +135,12 @@
       <Filter>gameplay\components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\code\engine\gameplay\components\PhysicsComponent.cpp">
+      <Filter>gameplay\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\components\ShapesGraphicsComponent.cpp">
+      <Filter>gameplay\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\components\BoxPhysicsComponent.cpp">
       <Filter>gameplay\components</Filter>
     </ClCompile>
   </ItemGroup>

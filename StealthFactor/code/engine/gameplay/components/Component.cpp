@@ -6,7 +6,6 @@ Component::Component(Entity* ownerT) :
 	owner(ownerT),
 	type(Gameplay)
 {
-	owner->addComponent(std::make_shared<Component>(ownerT));
 	std::cout << "Component Created";
 }
 
@@ -15,7 +14,6 @@ Component::Component(Entity* ownerT) :
 
 Component::~Component()
 {
-	owner->removeComponent(std::make_shared<Component>(owner));
 	std::cout << "Component Destroyed";
 }
 

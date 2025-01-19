@@ -1,0 +1,1002 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\BoxPhysicsComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\ShapesGraphicsComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\ShapesGraphicsComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\BoxPhysicsComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\GraphicsComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\GraphicsComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\ShapeList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\include\\xutility||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\GraphicsComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\include\\memory||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T02:25:52.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TargetComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\TargetComponent.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\TargetComponent.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T16:10:36.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BoxPhysicsComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\BoxPhysicsComponent.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\BoxPhysicsComponent.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\BoxPhysicsComponent.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\BoxPhysicsComponent.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T15:57:54.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TargetComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\TargetComponent.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\TargetComponent.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewBQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T15:00:23.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\PlayerComponent.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\PlayerComponent.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAnwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T14:46:04.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PhysicsManager.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\physics\\PhysicsManager.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.cpp",
+              "RelativeToolTip": "..\\code\\engine\\physics\\PhysicsManager.cpp",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T14:14:48.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Entity.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\Entity.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\Entity.hpp",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAnwBoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-18T23:52:25.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Target.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Target.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Target.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T02:29:00.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Entity.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\Entity.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\Entity.cpp",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAewGQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T15:05:35.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Target.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Target.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Target.hpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T02:29:12.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShapesGraphicsComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\ShapesGraphicsComponent.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\ShapesGraphicsComponent.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\ShapesGraphicsComponent.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\ShapesGraphicsComponent.cpp",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T13:18:04.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PhysicsComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\PhysicsComponent.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\PhysicsComponent.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T15:10:38.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShapesGraphicsComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\ShapesGraphicsComponent.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\ShapesGraphicsComponent.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\ShapesGraphicsComponent.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\ShapesGraphicsComponent.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T13:18:17.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameplayManager.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-18T23:51:09.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PhysicsComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\PhysicsComponent.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\PhysicsComponent.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T15:06:37.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Enemy.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Enemy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T02:26:00.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameplayManager.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\GameplayManager.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\GameplayManager.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T16:15:11.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GraphicsManager.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\graphics\\GraphicsManager.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp",
+              "RelativeToolTip": "..\\code\\engine\\graphics\\GraphicsManager.cpp",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAewDwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T13:24:35.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Player.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T02:27:52.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T02:27:46.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Enemy.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Enemy.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Enemy.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T14:53:43.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Character.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T13:21:53.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BoxPhysicsComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\BoxPhysicsComponent.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\BoxPhysicsComponent.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\BoxPhysicsComponent.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\BoxPhysicsComponent.hpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T14:48:34.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Engine.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\Engine.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp",
+              "RelativeToolTip": "..\\code\\engine\\Engine.hpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAnwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-18T23:48:18.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PlayerComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\PlayerComponent.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\PlayerComponent.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T16:09:34.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\Engine.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp",
+              "RelativeToolTip": "..\\code\\engine\\Engine.cpp",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAnwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T14:05:38.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EnemyComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\EnemyComponent.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\EnemyComponent.cpp",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwEEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-18T20:17:07.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GraphicsComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\GraphicsComponent.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\GraphicsComponent.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\GraphicsComponent.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\GraphicsComponent.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-18T20:17:10.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GraphicsComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\GraphicsComponent.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\GraphicsComponent.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\GraphicsComponent.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\GraphicsComponent.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T15:20:56.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Component.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\Component.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.cpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\Component.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-18T23:50:09.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EnemyComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\gameplay\\components\\EnemyComponent.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.hpp",
+              "RelativeToolTip": "..\\code\\engine\\gameplay\\components\\EnemyComponent.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-18T20:17:08.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ShapeList.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\ShapeList.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\graphics\\ShapeList.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\ShapeList.cpp",
+              "RelativeToolTip": "..\\code\\engine\\graphics\\ShapeList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T13:13:23.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "InputManager.cpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\input\\InputManager.cpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp",
+              "RelativeToolTip": "..\\code\\engine\\input\\InputManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-19T14:14:48.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GraphicsManager.hpp",
+              "DocumentMoniker": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.hpp",
+              "RelativeDocumentMoniker": "..\\code\\engine\\graphics\\GraphicsManager.hpp",
+              "ToolTip": "C:\\Users\\clare\\Documents\\GitHub\\Course-Materials-Architecture-ArtFX-2020-0\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.hpp",
+              "RelativeToolTip": "..\\code\\engine\\graphics\\GraphicsManager.hpp",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T13:26:07.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "xmemory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\xmemory",
+              "ViewState": "AgIAACEIAAAAAAAAAAAwwDAIAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-19T14:02:49.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "memory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
+              "ViewState": "AgIAAOMHAAAAAAAAAAAwwPIHAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-19T14:02:55.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PhysicsComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-17T16:29:05.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GraphicsComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\GraphicsComponent.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\GraphicsComponent.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\GraphicsComponent.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\GraphicsComponent.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-17T15:14:10.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PlayerComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-17T14:27:50.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TargetComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-17T15:19:16.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Component.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\Component.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-17T16:17:48.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "xutility",
+              "DocumentMoniker": "C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\include\\xutility",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\include\\xutility",
+              "ToolTip": "C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\include\\xutility",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\include\\xutility",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-17T14:29:19.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PhysicsComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PhysicsComponent.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-17T16:29:24.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TargetComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\TargetComponent.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-17T15:17:36.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PlayerComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\PlayerComponent.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-17T14:46:15.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Entity.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T11:10:29.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EnemyComponent.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\components\\EnemyComponent.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-17T16:23:10.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Entity.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\Entity.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-17T15:28:02.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GameplayManager.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\GameplayManager.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-17T08:23:27.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "memory",
+              "DocumentMoniker": "C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\include\\memory",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\include\\memory",
+              "ToolTip": "C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\include\\memory",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\include\\memory",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-17T16:26:47.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Target.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-17T15:26:30.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Engine.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-17T08:08:13.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\Engine.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-17T08:07:53.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Target.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Target.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-17T14:27:26.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T09:53:26.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Character.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Character.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T11:29:04.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-17T08:31:25.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Enemy.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Enemy.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T10:22:03.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Player.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T10:21:49.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\gameplay\\entities\\Player.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-19T10:19:09.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "GraphicsManager.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\graphics\\GraphicsManager.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-17T09:15:45.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\main.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\main.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\main.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-17T08:16:09.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PhysicsManager.hpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.hpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.hpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T09:55:27.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "PhysicsManager.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\physics\\PhysicsManager.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-16T09:55:24.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "InputManager.cpp",
+              "DocumentMoniker": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp",
+              "ToolTip": "C:\\Users\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\mollet.clarence\\Documents\\GitHub\\Engine-Architecture\\StealthFactor\\code\\engine\\input\\InputManager.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-17T09:05:35.802Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

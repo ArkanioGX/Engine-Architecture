@@ -8,6 +8,9 @@ void Entity::update(float dt)
 	for (auto component : components) {
 		component->update(dt);
 	}
+	for (auto component : physicsComponents) {
+		component->update(dt);
+	}
 }
 
 void Entity::draw()
@@ -44,44 +47,56 @@ const sf::Transform & Entity::getTransform() const
 	return _transform;
 }
 
-void Entity::addComponent(std::shared_ptr<Component> cp)
+void Entity::addComponent(std::shared_ptr<Component> inCp)
 {
-	switch (cp.get()->getType()) {
+	switch (inCp.get()->getType()) {
 	case ComponentType::Gameplay:
-		components.push_back(cp);
+		components.push_back(inCp);
 		break;
 	case ComponentType::Graphics:
-		graphicsComponents.push_back(std::dynamic_pointer_cast<GraphicsComponent>(cp));
+		components.push_back(inCp);
+		graphicsComponents.push_back(std::dynamic_pointer_cast<GraphicsComponent>(inCp));
 		break;
 	case ComponentType::Physics:
-		physicsComponents.push_back(std::dynamic_pointer_cast<PhysicsComponent>(cp));
+		components.push_back(inCp);
+		physicsComponents.push_back(std::dynamic_pointer_cast<PhysicsComponent>(inCp));
 		break;
 	}
 	
 }
 
-void Entity::removeComponent(std::shared_ptr<Component> cp)
+void Entity::removeComponent(std::shared_ptr<Component> inCp)
 {
-	std::vector<std::shared_ptr<class Component>>::iterator componentFound;
-	std::vector<std::shared_ptr<class GraphicsComponent>>::iterator gcomponentFound;
-	std::vector<std::shared_ptr<class PhysicsComponent>>::iterator pcomponentFound;
-	switch (cp.get()->getType()) {
+	std::vector<std::shared_ptr<Component>>::iterator componentFound;
+	std::vector<std::shared_ptr<GraphicsComponent>>::iterator gcomponentFound;
+	std::vector<std::shared_ptr<PhysicsComponent>>::iterator pcomponentFound;
+	switch (inCp.get()->getType()) {
 	case ComponentType::Gameplay:
-		componentFound = std::find(components.begin(), components.end(), cp);
-		while (componentFound != components.end())
+		gcomponentFound = std::find(graphicsComponents.begin(), graphicsComponents.end(), inCp);
+		while (gcomponentFound != graphicsComponents.end())
 		{
-			components.erase(componentFound);
+			graphicsComponents.erase(gcomponentFound);
 		};
 		break;
 	case ComponentType::Graphics:
-		gcomponentFound = std::find(graphicsComponents.begin(), graphicsComponents.end(), cp);
+		gcomponentFound = std::find(graphicsComponents.begin(), graphicsComponents.end(), inCp);
+		while (gcomponentFound != graphicsComponents.end())
+		{
+			graphicsComponents.erase(gcomponentFound);
+		};
+		gcomponentFound = std::find(graphicsComponents.begin(), graphicsComponents.end(), inCp);
 		while (gcomponentFound != graphicsComponents.end())
 		{
 			graphicsComponents.erase(gcomponentFound);
 		};
 		break;
 	case ComponentType::Physics:
-		pcomponentFound = std::find(physicsComponents.begin(), physicsComponents.end(), cp);
+		gcomponentFound = std::find(graphicsComponents.begin(), graphicsComponents.end(), inCp);
+		while (gcomponentFound != graphicsComponents.end())
+		{
+			graphicsComponents.erase(gcomponentFound);
+		};
+		pcomponentFound = std::find(physicsComponents.begin(), physicsComponents.end(), inCp);
 		while (pcomponentFound != physicsComponents.end())
 		{
 			physicsComponents.erase(pcomponentFound);

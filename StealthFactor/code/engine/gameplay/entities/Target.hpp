@@ -12,5 +12,8 @@ public:
 
 private:
 
-	class TargetComponent* targetComponent;
+	std::shared_ptr<class ShapesGraphicsComponent> drawComponent;
+	std::shared_ptr<class TargetComponent>targetComponent;
+	std::shared_ptr<class BoxPhysicsComponent> boxComponent;
+	
 };

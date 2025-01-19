@@ -385,11 +385,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\code\engine\Engine.hpp" />
+    <ClInclude Include="..\..\code\engine\gameplay\components\BoxPhysicsComponent.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\components\Component.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\components\EnemyComponent.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\components\GraphicsComponent.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\components\PhysicsComponent.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\components\PlayerComponent.hpp" />
+    <ClInclude Include="..\..\code\engine\gameplay\components\ShapesGraphicsComponent.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\components\TargetComponent.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\Entity.hpp" />
     <ClInclude Include="..\..\code\engine\gameplay\GameplayManager.hpp" />
@@ -405,11 +407,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\code\engine\Engine.cpp" />
+    <ClCompile Include="..\..\code\engine\gameplay\components\BoxPhysicsComponent.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\components\Component.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\components\EnemyComponent.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\components\GraphicsComponent.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\components\PhysicsComponent.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\components\PlayerComponent.cpp" />
+    <ClCompile Include="..\..\code\engine\gameplay\components\ShapesGraphicsComponent.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\components\TargetComponent.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\Entity.cpp" />
     <ClCompile Include="..\..\code\engine\gameplay\GameplayManager.cpp" />

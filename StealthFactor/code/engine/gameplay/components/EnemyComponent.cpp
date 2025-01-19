@@ -5,6 +5,7 @@
 #include <engine/Engine.hpp>
 #include <engine/gameplay/GameplayManager.hpp>
 #include <engine/gameplay/components/PlayerComponent.hpp>
+#include <engine/gameplay/components/ShapesGraphicsComponent.hpp>
 #include <engine/gameplay/Entity.hpp>
 
 EnemyComponent::EnemyComponent(Entity* owner, const std::string& archetypeName):
@@ -62,7 +63,12 @@ void EnemyComponent::loadArchetype(const std::string& archetypeName)
 		auto xmlArchetype = doc.first_child();
 
 		std::string shapeListName = xmlArchetype.child_value("shapelist");
-		//assert( load(shapeListName));
+		ShapesGraphicsComponent* sgc = owner->getComponent<ShapesGraphicsComponent*>();
+		assert(sgc != nullptr);
+		if (sgc != nullptr) {
+			assert(sgc->loadShapes(shapeListName));
+		}
+		
 
 		visionRadius = std::stof(xmlArchetype.child_value("vision_radius"));
 		assert(visionRadius > 0.f);
